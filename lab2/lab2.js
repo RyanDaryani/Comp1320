@@ -1,7 +1,8 @@
-var year = 2021;
-
-var monthNumber;
-var month = "september";
+//the program wont run because the call functions are in a comment in the end of the code.
+var year;
+var monthNumber; //used to convert month's names to numbers
+var month;
+var day;
 
 function getMonthNumber(year, month)
 {
@@ -297,7 +298,7 @@ function makeCalendar()
     }
 }
 
-//console.log(getDayOfTheWeek(2020, "january", 1)); test
+//console.log(getDayOfTheWeek(2020, "january", 1));  test
 
 //console.log(makeCalendar());
 
